@@ -141,6 +141,6 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    "https://deji01-turbo-waffle-7x6wv67qp6v2p4pw-8000.preview.app.github.dev:3000",
-    "https://deji01-turbo-waffle-7x6wv67qp6v2p4pw-8000.preview.app.github.dev:8000",
+    "https://deji01-turbo-waffle-7x6wv67qp6v2p4pw-3000.preview.app.github.dev",
+    "https://deji01-turbo-waffle-7x6wv67qp6v2p4pw-8000.preview.app.github.dev",
 ]
