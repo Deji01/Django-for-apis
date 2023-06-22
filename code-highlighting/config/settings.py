@@ -128,3 +128,8 @@ CSRF_TRUSTED_ORIGINS = [
     "https://deji01-vigilant-meme-jgv9jvr6jpx3pg4q.github.dev",
     "https://deji01-vigilant-meme-jgv9jvr6jpx3pg4q-8000.preview.app.github.dev"
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
+}
