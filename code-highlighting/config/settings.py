@@ -125,5 +125,6 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://deji01-vigilant-meme-jgv9jvr6jpx3pg4q.github.dev"
+    "https://deji01-vigilant-meme-jgv9jvr6jpx3pg4q.github.dev",
+    "https://deji01-vigilant-meme-jgv9jvr6jpx3pg4q-8000.preview.app.github.dev"
 ]
