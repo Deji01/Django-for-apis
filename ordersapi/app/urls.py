@@ -1,16 +1,8 @@
 from django.urls import path
-from .views import (
-    CategoriesView,
-    MenuItemsView,
-    SingleMenuItemView,
-    CartView,
-    OrderView,
-    SingleOrderView,
-    GroupViewSet,
-    DeleiveryCrewViewSet
-)
+from .views import CategoriesView, MenuItemsView, SingleMenuItemView, CartView, OrderView, SingleOrderView, GroupViewSet, DeliveryCrewViewSet
 
-urlspatterns = [
+
+urlpatterns = [
     path("categories", CategoriesView.as_view()),
     path("menu-items", MenuItemsView.as_view()),
     path("menu-items/<int:pk>", SingleMenuItemView.as_view()),
@@ -22,7 +14,7 @@ urlspatterns = [
         "post": "create",
         "delete": "destroy"
     })),
-    path("groups/delivery-crew/users", DeleiveryCrewViewSet.as_view({
+    path("groups/delivery-crew/users", DeliveryCrewViewSet.as_view({
         "get": "list",
         "post": "create",
         "delete": "destroy"
